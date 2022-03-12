@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
+  background-color: #6b8cce;
 }
 
 h1 {
@@ -36,13 +38,32 @@ small {
 
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 200px 400px;
 }
 
 .weather-app {
-  padding: 20px;
-  border: 1px solid #4162a4;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 5px;
+  padding: 20px;
+  width: 450px;
+}
+
+.form-control {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-primary {
+  background-color: #6b8cce;
+  border-color: #6b8cce;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.btn-primary:hover {
+  background-color: #0c3483;
+  border-color: #0c3483;
 }
 
 .float-left {
@@ -55,13 +76,13 @@ small {
 
 .weather-temperature img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 70px;
+  width: 70px;
 }
 
 .weather-temperature strong {
   font-family: "Bebas Neue", cursive;
-  font-size: 45px;
+  font-size: 50px;
   color: #4162a4;
 }
 
@@ -78,4 +99,9 @@ small {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.source-code {
+  color: #ffffff;
+  margin: 0 auto;
 }
