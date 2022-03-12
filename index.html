@@ -16,6 +16,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -24,10 +25,10 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="overview">
-            <h1>Toronto</h1>
+            <h1 id="city"></h1>
             <ul>
               <li>Friday 8:00</li>
-              <li>Partly Cloudy</li>
+              <li id="weather-condition">Partly Cloudy</li>
             </ul>
           </div>
           <div class="row">
@@ -39,15 +40,15 @@
                   class="float-left"
                 />
                 <div class="float-left">
-                  <strong>12</strong><small> °C | <a href="#">°F</a></small>
+                  <strong id="temperature"></strong
+                  ><small> °C | <a href="#">°F</a></small>
                 </div>
               </div>
             </div>
             <div class="col-6">
               <ul>
-                <li>Precipitation: 2%</li>
-                <li>Humidity: 54%</li>
-                <li>Wind: 19 km/h</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
             </div>
           </div>
