@@ -46,7 +46,7 @@ small {
   border: 1px solid #ffffff;
   border-radius: 5px;
   padding: 20px;
-  width: 450px;
+  width: 500px;
 }
 
 .form-control {
@@ -99,6 +99,28 @@ small {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.weather-forecast-temp {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  color: #000000;
+}
+
+.weather-forecast-temp-low {
+  opacity: 0.5;
 }
 
 .source-code {
