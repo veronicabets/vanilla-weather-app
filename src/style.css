@@ -38,7 +38,7 @@ small {
 
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 200px 400px;
+  margin: 30px auto;
 }
 
 .weather-app {
