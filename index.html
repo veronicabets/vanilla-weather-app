@@ -17,6 +17,11 @@
       crossorigin="anonymous"
     />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ad036d1907.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -26,7 +31,7 @@
         <div class="weather-app">
           <form id="search-form">
             <div class="row">
-              <div class="col-9">
+              <div class="col-6">
                 <input
                   type="Search"
                   placeholder="Search city..."
@@ -35,12 +40,21 @@
                   autocomplete="off"
                 />
               </div>
-              <div class="col-3">
+              <div class="col-2">
                 <input
                   type="submit"
                   value="Search"
-                  class="btn btn-primary w-100"
+                  class="btn btn-primary w-150"
                 />
+              </div>
+              <div class="col-2">
+                <button
+                  type="button"
+                  class="btn btn-success location-button"
+                  id="get-location-button"
+                >
+                  Current location
+                </button>
               </div>
             </div>
           </form>
